@@ -1,0 +1,9 @@
+[package]
+name = "papiez"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.29"
+image = { version = "0.25.10", default-features = false, features = ["jpeg"] }
+libc = "0.2.191"
